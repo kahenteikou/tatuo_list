@@ -1,5 +1,5 @@
 .card {
-    width: 499px;
+    max-width: 499px;
     margin-left: auto;
     margin-right: auto;
     background: #fff;
@@ -19,6 +19,7 @@
     font-size: 19px;
     line-height: 1.5;
 }
+
 .banner {
     height: 100px;
     text-align: center;
@@ -46,4 +47,10 @@
 }
 .margine_kasegi{
     height: 3px;
+}
+@media screen and (max-width: 499px){
+.banner {
+    font-size: 51px;
+
+}
 }
